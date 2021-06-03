@@ -14,7 +14,7 @@ typedef struct MAPS{
     char* ip;//URL-ip对
     struct MAPS *next;//同一哈希值的下一URL-ip对指针
 }Map;//储存URL-ip对的结构体Map
-Map map[MAPLEN];//结构体数组
+Map map[MAPLEN];//结构体shuzhu
 
 int getKeyByURL(char* url){
     int key=0,i=0;

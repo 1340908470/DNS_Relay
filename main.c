@@ -115,7 +115,7 @@ int main(int argc, char** argv) {
         memset(url,0,255);
         memset(ip,0,255);//将所有数组状态回归初始值
         if(fscanf(fp,"%s %s",ip,url)==-1)
-            break;//读入文件的一行并将空格前后的值分别赋给ip和url，如果读取失败跳出循环
+            break;//读入文件的一行并将空格前后的值分别赋给ip和url，如果读取失败则跳出循环
         insertMap(url,ip);//插入这个url-ip
     }
     free(url);

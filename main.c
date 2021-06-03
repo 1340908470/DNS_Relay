@@ -117,6 +117,8 @@ int main(int argc, char** argv) {
             break;//读入文件的一行并将空格前后的值分别赋给ip和url，如果读取失败跳出循环
         insertMap(url,ip);//插入这个url-ip
     }
+    free(url);
+    free(ip);
 
     WSADATA wsadata;
     WSAStartup(MAKEWORD(2, 2), &wsadata);

@@ -1,0 +1,1177 @@
+---- DEBUG LEVEL = 3 ----
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] nav.smartscreen.microsoft.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] nav.smartscreen.microsoft.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] nav.smartscreen.microsoft.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] nav.smartscreen.microsoft.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] nav.smartscreen.microsoft.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] nav.smartscreen.microsoft.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] nav.smartscreen.microsoft.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] nav.smartscreen.microsoft.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] nav.smartscreen.microsoft.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] nav.smartscreen.microsoft.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] nav.smartscreen.microsoft.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] nav.smartscreen.microsoft.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] edge.microsoft.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] edge.microsoft.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] edge.microsoft.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] edge.microsoft.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] edge.microsoft.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] edge.microsoft.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] edge.microsoft.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] edge.microsoft.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ntp.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ntp.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] ntp.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] ntp.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ntp.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ntp.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] ntp.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] ntp.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ntp.msn.cn
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ntp.msn.cn
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] ntp.msn.cn
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] ntp.msn.cn
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ntp.msn.cn
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ntp.msn.cn
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] ntp.msn.cn
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] ntp.msn.cn
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ssl.google-analytics.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ssl.google-analytics.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] ssl.google-analytics.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] ssl.google-analytics.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ssl.google-analytics.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ssl.google-analytics.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] ssl.google-analytics.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] ssl.google-analytics.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] edge.microsoft.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] edge.microsoft.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] edge.microsoft.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] edge.microsoft.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ntp.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ntp.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] ntp.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] ntp.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ntp.msn.cn
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ntp.msn.cn
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] ntp.msn.cn
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] ntp.msn.cn
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ssl.google-analytics.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ssl.google-analytics.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] ssl.google-analytics.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] ssl.google-analytics.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] nav.smartscreen.microsoft.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] nav.smartscreen.microsoft.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] nav.smartscreen.microsoft.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] nav.smartscreen.microsoft.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] www.zhihu.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] www.zhihu.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 9  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] www.zhihu.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 9  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] www.zhihu.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] www.zhihu.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] www.zhihu.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 9  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] www.zhihu.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 9  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] www.zhihu.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] api.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] api.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] api.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] api.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] api.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] api.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] api.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] api.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] www.zhihu.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] www.zhihu.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 9  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] www.zhihu.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 9  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] www.zhihu.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] edge.microsoft.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] edge.microsoft.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] edge.microsoft.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] edge.microsoft.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ntp.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ntp.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] ntp.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] ntp.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ntp.msn.cn
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ntp.msn.cn
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] ntp.msn.cn
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] ntp.msn.cn
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] api.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] api.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] api.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] api.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] c.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] c.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] c.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] c.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] browser.events.data.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] sb.scorecardresearch.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] browser.events.data.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] sb.scorecardresearch.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] browser.events.data.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 4  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] sb.scorecardresearch.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] browser.events.data.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] sb.scorecardresearch.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] c.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] c.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] c.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] c.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] browser.events.data.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] sb.scorecardresearch.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] sb.scorecardresearch.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] browser.events.data.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] browser.events.data.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 4  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] sb.scorecardresearch.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] sb.scorecardresearch.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] browser.events.data.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ssl.google-analytics.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] ssl.google-analytics.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] ssl.google-analytics.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] ssl.google-analytics.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] assets.msn.cn
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] assets.msn.cn
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 4  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] assets.msn.cn
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] assets.msn.cn
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] assets.msn.cn
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] assets.msn.cn
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 4  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] assets.msn.cn
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] assets.msn.cn
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] www.bilibili.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] www.bilibili.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = a  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] www.bilibili.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 1  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] www.bilibili.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] www.bilibili.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] www.bilibili.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 1  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] www.bilibili.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = a  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] www.bilibili.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] c.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] c.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] c.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] c.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] sb.scorecardresearch.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] browser.events.data.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] sb.scorecardresearch.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] browser.events.data.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 4  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] sb.scorecardresearch.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] browser.events.data.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] sb.scorecardresearch.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] browser.events.data.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] assets.msn.cn
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] assets.msn.cn
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 4  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] assets.msn.cn
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] assets.msn.cn
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] www.bilibili.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] www.bilibili.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = a  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] www.bilibili.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 1  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] www.bilibili.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] www.zhihu.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] www.zhihu.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 9  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] www.zhihu.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 9  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] www.zhihu.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] api.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] api.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] api.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] api.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] nav.smartscreen.microsoft.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] nav.smartscreen.microsoft.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] nav.smartscreen.microsoft.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] nav.smartscreen.microsoft.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] c.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] c.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] c.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] c.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] browser.events.data.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] browser.events.data.msn.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] sb.scorecardresearch.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] sb.scorecardresearch.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] browser.events.data.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 2  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] browser.events.data.msn.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] sb.scorecardresearch.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 4  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] sb.scorecardresearch.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] assets.msn.cn
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] assets.msn.cn
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 4  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] assets.msn.cn
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 3  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] assets.msn.cn
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] www.bilibili.com
+
+接收到来自ip 127.0.0.1 的数据: DNS Header: (Hexadecimal)
+ID = 100  		┇  QR = 0  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 0  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 0  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[request] www.bilibili.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = a  	┇  NSCOUNT = 0  	┇  ARCOUNT = 0
+[response] www.bilibili.com
+
+接收到来自ip 10.3.9.44 的数据: DNS Header: (Hexadecimal)
+ID = 8180  		┇  QR = 1  			┇  OPCODE = 0  		┇  AA = 0
+TC = 0  		┇  RD = 1  			┇  RA = 1  			┇  RCODE = 0
+QDCOUNT = 1  	┇  ANCOUNT = 1  	┇  NSCOUNT = 1  	┇  ARCOUNT = 0
+[response] www.bilibili.com
+

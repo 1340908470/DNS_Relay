@@ -1,0 +1,3 @@
+D:/GitHub/DNS_Relay/cmake-build-debug/CMakeFiles/DNS.dir
+D:/GitHub/DNS_Relay/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/GitHub/DNS_Relay/cmake-build-debug/CMakeFiles/rebuild_cache.dir

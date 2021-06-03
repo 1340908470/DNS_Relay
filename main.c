@@ -2,10 +2,13 @@
 #include "struct.h"
 #include "hashmap.h"
 
+char buf[512];
+
 // 获取DNS头部信息
 void DNS_GetHead(DNS *dns) {
+    (*dns).dnsHeader.ID = (int) *(uint16_t *) (*dns).buff;
+
     uint16_t cur_word = htons(*(uint16_t *) ((*dns).buff + 2));
-    (*dns).dnsHeader.ID = (int) cur_word;
     (*dns).dnsHeader.QR = (cur_word & 0x8000) >> 15;
     (*dns).dnsHeader.OPCODE = (cur_word & 0x7800) >> 11;
     (*dns).dnsHeader.AA = (cur_word & 0x0400) >> 10;
@@ -37,24 +40,11 @@ void DNS_GetQuery(DNS *dns) {
     URL[i] = '\0';
     strcpy((*dns).dnsQueries.QNAMME, URL);
     // get QTYPE
-    (*dns).dnsQueries.QTYPE = (uint16_t)*((*dns).buff + 12 + len + 2);
-    (*dns).dnsQueries.QCLASS = (uint16_t)*((*dns).buff + 12 + len + 4);
+    (*dns).dnsQueries.QTYPE = (uint16_t)*((*dns).buff + 12 + len + 1);
+    (*dns).dnsQueries.QCLASS = (uint16_t)*((*dns).buff + 12 + len + 3);
+
+    (*dns).answerOffset = len + 17;
     free(URL);
-}
-
-// 获取DNS答案信息
-void DNS_GetAnswer(DNS *dns) {
-
-}
-
-// 获取DNS授权信息
-void DNS_GetAuthority(DNS *dns) {
-
-}
-
-// 获取DNS附加信息
-void DNS_GetAdditional(DNS *dns) {
-
 }
 
 
@@ -64,7 +54,6 @@ void DNS_Print(DNS *dns) {
         if ((*dns).dnsHeader.QR == 0 && (*dns).dnsHeader.OPCODE == 0 && DEBUGLEVEL >= 2) {
             /* Question Section */
             printf("[request] \n");
-
         } else {
             printf("[response] \n");
         }
@@ -83,6 +72,12 @@ void DNS_Print(DNS *dns) {
         printf("QTYPE: %x  \n", (*dns).dnsQueries.QTYPE);
         printf("QCLASS: %x  \n", (*dns).dnsQueries.QCLASS);
 
+        printf("## DNS Rest Part: (Hexadecimal)\n");
+        for (int i = 0; i < dns->size_n - dns->answerOffset; ++i) {
+            printf("%x ", (uint8_t)*((*dns).buff + (*dns).answerOffset + i));
+        }
+
+        printf("\n");
         printf("\n");
     }
 }
@@ -101,7 +96,7 @@ int main(int argc, char** argv) {
     printf("---- DEBUG LEVEL = %d ----\n", DEBUGLEVEL);
 
     FILE *fp;
-    if ((fp = fopen("dnsrelay.txt", "r")) == NULL) {
+    if ((fp = fopen("../dnsrelay.txt", "r")) == NULL) {
         if (DEBUGLEVEL >= 1)
             printf("Can't find the dnsrelay file.\n");
         exit(0);
@@ -111,7 +106,7 @@ int main(int argc, char** argv) {
     char *ip;
     ip = (char *) malloc(255);
     int i = 0;//定义三个下标分别表示当前处理的url、ip的位置所在
-    while (i != -1) {
+    while (1) {
         memset(url,0,255);
         memset(ip,0,255);//将所有数组状态回归初始值
         if(fscanf(fp,"%s %s",ip,url)==-1)
@@ -141,13 +136,12 @@ int main(int argc, char** argv) {
 
     SOCKADDR_IN fromAddr;
     int lenAnyAddr = sizeof(fromAddr);
-    char buf[512];
 
     memset(&buf, '\0', sizeof(buf));
-    int revLen;
-    DNS dns;
 
     while (1) {
+        int revLen = 0;
+        DNS dns;
         revLen = recvfrom(sock, buf, sizeof(buf), 0, (SOCKADDR *) &fromAddr, &lenAnyAddr);
         if (revLen < 0 && DEBUGLEVEL >= 1) {
             printf("recv err");
@@ -155,11 +149,13 @@ int main(int argc, char** argv) {
 
         if (revLen > 0) {
             if (DEBUGLEVEL >= 2) printf("接收到来自ip %s 的数据: \n", inet_ntoa(fromAddr.sin_addr));
+            dns.size_n = (size_t)revLen;
             memcpy(dns.buff, buf, revLen);
             DNS_GetHead(&dns);
             DNS_GetQuery(&dns);
             DNS_Print(&dns);
         }
+
         revLen = sendto(sock, buf, revLen, 0, (SOCKADDR*)&remoteAddr, lenRemoteAddr);
 
         if (revLen < 0 && DEBUGLEVEL >= 1) {

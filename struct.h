@@ -52,6 +52,15 @@ typedef struct {
 } DNSQueries;
 
 typedef struct {
+    char NAME[512];
+    uint16_t TYPE;
+    uint16_t CLASS;
+    uint16_t TTL;
+    uint16_t RDLENGTH;
+    char RDATA[512];
+} DNSRR;
+
+typedef struct {
     char buff[512];
     DNSHeader dnsHeader;
     DNSQueries dnsQueries;

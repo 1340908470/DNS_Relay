@@ -42,17 +42,17 @@ void DNS_GetQuery(DNS *dns) {
     free(URL);
 }
 
-// 获取DNS头部信息
+// 获取DNS答案信息
 void DNS_GetAnswer(DNS *dns) {
 
 }
 
-// 获取DNS头部信息
+// 获取DNS授权信息
 void DNS_GetAuthority(DNS *dns) {
 
 }
 
-// 获取DNS头部信息
+// 获取DNS附加信息
 void DNS_GetAdditional(DNS *dns) {
 
 }

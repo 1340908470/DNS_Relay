@@ -60,4 +60,3 @@ typedef struct {
     uint32_t ip;
     size_t size_n;
 } DNS;
-

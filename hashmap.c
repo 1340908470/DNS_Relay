@@ -8,6 +8,7 @@
 #define MAPLEN 1000
 #include "stdlib.h"
 #include "stdio.h"
+
 typedef struct MAPS{
     char* URL;
     char* ip;

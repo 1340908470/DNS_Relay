@@ -100,6 +100,27 @@ int main(int argc, char** argv) {
 
     printf("---- DEBUG LEVEL = %d ----\n", DEBUGLEVEL);
 
+    FILE *fp;
+    if ((fp = fopen("dnsrelay.txt", "r")) == NULL) {
+        if (DEBUGLEVEL >= 1)
+            printf("Can't find the dnsrelay file.\n");
+        exit(0);
+    }//把存放在txt文档里面的ip-域名对照表给取出
+    char *url;
+    url = (char *) malloc(255);
+    char *ip;
+    ip = (char *) malloc(255);
+    int i = 0;//定义三个下标分别表示当前处理的url、ip的位置所在
+    while (i != -1) {
+        memset(url,0,255);
+        memset(ip,0,255);//将所有数组状态回归初始值
+        if(fscanf(fp,"%s %s",ip,url)==-1)
+            break;//读入文件的一行并将空格前后的值分别赋给ip和url，如果读取失败则跳出循环
+        insertMap(url,ip);//插入这个url-ip
+    }
+    free(url);
+    free(ip);
+
     WSADATA wsadata;
     WSAStartup(MAKEWORD(2, 2), &wsadata);
 

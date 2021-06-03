@@ -102,7 +102,8 @@ int main(int argc, char** argv) {
 
     FILE *fp;
     if ((fp = fopen("dnsrelay.txt", "r")) == NULL) {
-        printf("Can't find the dnsrelay file.\n");
+        if (DEBUGLEVEL >= 1)
+            printf("Can't find the dnsrelay file.\n");
         exit(0);
     }//把存放在txt文档里面的ip-域名对照表给取出
     char *url;

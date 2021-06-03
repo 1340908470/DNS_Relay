@@ -31,15 +31,14 @@ char* getIPByURL(char* url){
     Map* mapget=map+getKeyByURL(url);//通过getKeyByURL算法找到URL-ip对存放位置所在并取出该指针
     if(mapget->ip==NULL)
         return NULL;//如果这个位置为空，则该对并不在哈希表中，返回空指针
-    do{
+    while(mapget!=NULL){
         if(!strcmp(mapget->URL,url)){
-
             IP=(char*) malloc(strlen(mapget->ip)*8);
             strcpy(IP,mapget->ip);
             break;
-        }//如果这个位置不为空，则比较里面存储的URL和导入的URL，相等则将URL对应的ip传出
+        }//将mapget的URL与传入的URL匹配，如果匹配传回ip,如果当前URL不匹配，则不断向下一个结点查询URL直到匹配成功或者不存在下一个结点
         mapget=mapget->next;
-    }while(mapget!=NULL);
+    }
     return IP;
 };//通过URL在哈希表中寻得对应的ip
 int insertMap(char* URL,char* ip){

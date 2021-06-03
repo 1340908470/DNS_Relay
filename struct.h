@@ -46,13 +46,18 @@ typedef struct {
 } DNSHeader;
 
 typedef struct {
-    char buff[512];
-    DNSHeader dnsHeader;
-    char *QNAMME;
+    char QNAMME[512];
     uint16_t QTYPE;
     uint16_t QCLASS;
+} DNSQueries;
+
+typedef struct {
+    char buff[512];
+    DNSHeader dnsHeader;
+    DNSQueries dnsQueries;
     int questionLength;
     int answerOffset;
     uint32_t ip;
     size_t size_n;
 } DNS;
+

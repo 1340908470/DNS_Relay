@@ -1,6 +1,5 @@
 #include "include.h"
 #include "struct.h"
-//#include "assert.h"
 #include "hashmap.h"
 
 // 获取DNS头部信息
@@ -20,48 +19,73 @@ void DNS_GetHead(DNS *dns) {
     (*dns).dnsHeader.ANCOUNT = htons(*(uint16_t *) ((*dns).buff + 6));
     (*dns).dnsHeader.NSCOUNT = htons(*(uint16_t *) ((*dns).buff + 8));
     (*dns).dnsHeader.ARCOUNT = htons(*(uint16_t *) ((*dns).buff + 10));
-
-    if (DEBUGLEVEL >= 3) {
-        printf("DNS Header: (Hexadecimal)\n");
-        printf("ID = %x  \t\t┇  QR = %x  \t\t\t┇  OPCODE = %x  \t\t┇  AA = %x\n",
-               (*dns).dnsHeader.ID, (*dns).dnsHeader.QR, (*dns).dnsHeader.OPCODE, (*dns).dnsHeader.AA);
-        printf("TC = %x  \t\t┇  RD = %x  \t\t\t┇  RA = %x  \t\t\t┇  RCODE = %x\n",
-               (*dns).dnsHeader.TC, (*dns).dnsHeader.RD, (*dns).dnsHeader.RA, (*dns).dnsHeader.RCODE);
-        printf("QDCOUNT = %x  \t┇  ANCOUNT = %x  \t┇  NSCOUNT = %x  \t┇  ARCOUNT = %x\n",
-               (*dns).dnsHeader.QDCOUNT, (*dns).dnsHeader.ANCOUNT, (*dns).dnsHeader.NSCOUNT, (*dns).dnsHeader.ARCOUNT);
-    }
 }
 
-
-void DNS_GetQuery(DNS *dns, int dnsLen) {
-    if ((*dns).dnsHeader.QR == 0 && (*dns).dnsHeader.OPCODE == 0) {
-        /* Question Section */
-        printf("[request] ");
-
-    } else {
-        printf("[response] ");
-    }
-
+// 获取DNS头部信息
+void DNS_GetQuery(DNS *dns) {
+    // Question Section
     // get QNAME
-    (*dns).QNAMME = (*dns).buff + 12;
+    memcpy((*dns).dnsQueries.QNAMME, (*dns).buff + 12, sizeof((*dns).dnsQueries.QNAMME));
     char* URL = (char*) malloc(100);
     int len = 1, i = 0;
-    int count = (*dns).QNAMME[0] - '\0';
-    while ((*dns).QNAMME[len] != '\0') {
-        if (count == 0) { URL[i] = '.'; count = (*dns).QNAMME[len] - '\0'; }
-        else {URL[i] = (*dns).QNAMME[len]; count--; }
+    int count = (*dns).dnsQueries.QNAMME[0] - '\0';
+    while ((*dns).dnsQueries.QNAMME[len] != '\0') {
+        if (count == 0) { URL[i] = '.'; count = (*dns).dnsQueries.QNAMME[len] - '\0'; }
+        else {URL[i] = (*dns).dnsQueries.QNAMME[len]; count--; }
         len++; i++;
     }
     URL[i] = '\0';
-    strcpy((*dns).QNAMME, URL);
+    strcpy((*dns).dnsQueries.QNAMME, URL);
     // get QTYPE
-    (*dns).QTYPE = htons(*((*dns).QNAMME + 2));
-    (*dns).QCLASS = htons(*((*dns).QNAMME + 4));
-
+    (*dns).dnsQueries.QTYPE = (uint16_t)*((*dns).buff + 12 + len + 2);
+    (*dns).dnsQueries.QCLASS = (uint16_t)*((*dns).buff + 12 + len + 4);
     free(URL);
-    printf("%s\n\n", (*dns).QNAMME);
 }
 
+// 获取DNS头部信息
+void DNS_GetAnswer(DNS *dns) {
+
+}
+
+// 获取DNS头部信息
+void DNS_GetAuthority(DNS *dns) {
+
+}
+
+// 获取DNS头部信息
+void DNS_GetAdditional(DNS *dns) {
+
+}
+
+
+// 打印DNS信息
+void DNS_Print(DNS *dns) {
+    if (DEBUGLEVEL >= 2) {
+        if ((*dns).dnsHeader.QR == 0 && (*dns).dnsHeader.OPCODE == 0 && DEBUGLEVEL >= 2) {
+            /* Question Section */
+            printf("[request] \n");
+
+        } else {
+            printf("[response] \n");
+        }
+    }
+    if (DEBUGLEVEL >= 3) {
+        printf("## DNS Header: (Hexadecimal)\n");
+        printf("ID = %x  \t┇  QR = %x  \t┇  OP = %x  \t┇  AA = %x\n",
+               (*dns).dnsHeader.ID, (*dns).dnsHeader.QR, (*dns).dnsHeader.OPCODE, (*dns).dnsHeader.AA);
+        printf("TC = %x  \t┇  RD = %x  \t┇  RA = %x  \t┇  RC = %x\n",
+               (*dns).dnsHeader.TC, (*dns).dnsHeader.RD, (*dns).dnsHeader.RA, (*dns).dnsHeader.RCODE);
+        printf("QD = %x  \t┇  AN = %x  \t┇  NS = %x  \t┇  AR = %x\n",
+               (*dns).dnsHeader.QDCOUNT, (*dns).dnsHeader.ANCOUNT, (*dns).dnsHeader.NSCOUNT, (*dns).dnsHeader.ARCOUNT);
+
+        printf("## DNS Question: (Hexadecimal)\n");
+        printf("QNAME: %s  \n", (*dns).dnsQueries.QNAMME);
+        printf("QTYPE: %x  \n", (*dns).dnsQueries.QTYPE);
+        printf("QCLASS: %x  \n", (*dns).dnsQueries.QCLASS);
+
+        printf("\n");
+    }
+}
 
 int main(int argc, char** argv) {
     if (strcmp(argv[1], "1") == 0) {
@@ -96,8 +120,8 @@ int main(int argc, char** argv) {
 
     SOCKADDR_IN fromAddr;
     int lenAnyAddr = sizeof(fromAddr);
-
     char buf[512];
+
     memset(&buf, '\0', sizeof(buf));
     int revLen;
     DNS dns;
@@ -109,11 +133,11 @@ int main(int argc, char** argv) {
         }
 
         if (revLen > 0) {
-            if (DEBUGLEVEL >= 2) printf("接收到来自ip %s 的数据: ", inet_ntoa(fromAddr.sin_addr));
-
+            if (DEBUGLEVEL >= 2) printf("接收到来自ip %s 的数据: \n", inet_ntoa(fromAddr.sin_addr));
             memcpy(dns.buff, buf, revLen);
             DNS_GetHead(&dns);
-            DNS_GetQuery(&dns, revLen);
+            DNS_GetQuery(&dns);
+            DNS_Print(&dns);
         }
         revLen = sendto(sock, buf, revLen, 0, (SOCKADDR*)&remoteAddr, lenRemoteAddr);
 

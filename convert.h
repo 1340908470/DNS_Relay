@@ -13,8 +13,6 @@
 #include <stdlib.h>
 #define SIZE 0xffff
 
-typedef char* SOCKADDR_IN;
-
 int id2;
 
 typedef struct {
